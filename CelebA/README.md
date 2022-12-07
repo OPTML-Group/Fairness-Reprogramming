@@ -82,11 +82,11 @@ python3 train.py --data-dir PATH_TO_DATA --result-dir adv --epochs 20 --target-a
 We can enable training with patch trigger using the following command.
 
 ```
-python3 train.py --data-dir PATH_TO_DATA --result-dir patch --reprogram-size 30 --epochs 20 --target-attrs Blond_Hair --adversary-with-logits --lmbda 0.05 --m rpatch --adversary-with-y --checkpoint PATH_TO_PRETRINED_MODEL --seed 2022
+python3 train.py --data-dir PATH_TO_DATA --result-dir patch --reprogram-size 30 --epochs 20 --target-attrs Blond_Hair --adversary-with-logits --lmbda 0.05 --m rpatch --checkpoint PATH_TO_PRETRINED_MODEL --seed 2022
 ```
 
 ```
-python3 train.py --data-dir PATH_TO_DATA --result-dir patch --reprogram-size 30 --epochs 20 --target-attrs Blond_Hair --adversary-with-logits --lmbda 0.05 --m rpatch --adversary-with-y --checkpoint PATH_TO_PRETRINED_MODEL --adversary-with-y --seed 2022
+python3 train.py --data-dir PATH_TO_DATA --result-dir patch --reprogram-size 30 --epochs 20 --target-attrs Blond_Hair --adversary-with-logits --lmbda 0.05 --m rpatch --adversary-with-y --checkpoint PATH_TO_PRETRINED_MODEL --seed 2022
 ```
 
 #### Reprogramming with Border Trigger
@@ -94,11 +94,11 @@ python3 train.py --data-dir PATH_TO_DATA --result-dir patch --reprogram-size 30 
 We can enable training with border trigger using the following command.
 
 ```
-python3 train.py --data-dir PATH_TO_DATA --result-dir border --reprogram-size 20 --epochs 20 --target-attrs Blond_Hair --adversary-with-logits --lmbda 0.05 --m repro --adversary-with-y --checkpoint PATH_TO_PRETRINED_MODEL --seed 2022
+python3 train.py --data-dir PATH_TO_DATA --result-dir border --reprogram-size 20 --epochs 20 --target-attrs Blond_Hair --adversary-with-logits --lmbda 0.05 --m repro --checkpoint PATH_TO_PRETRINED_MODEL --seed 2022
 ```
 
 ```
-python3 train.py --data-dir PATH_TO_DATA --result-dir border --reprogram-size 20 --epochs 20 --target-attrs Blond_Hair --adversary-with-logits --lmbda 0.05 --m repro --adversary-with-y --checkpoint PATH_TO_PRETRINED_MODEL --adversary-with-y --seed 2022
+python3 train.py --data-dir PATH_TO_DATA --result-dir border --reprogram-size 20 --epochs 20 --target-attrs Blond_Hair --adversary-with-logits --lmbda 0.05 --m repro --adversary-with-y --checkpoint PATH_TO_PRETRINED_MODEL --seed 2022
 ```
 ## Citation
 
